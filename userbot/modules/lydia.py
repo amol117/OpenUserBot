@@ -44,7 +44,7 @@ async def addcf(event):
     else:
         await event.edit("Reply to a user to activate Lydia AI on them")
 
-@register(outgoing=True, pattern="^.elda$")
+@register(outgoing=True, pattern="^.dlda$")
 async def remcf(event):
     if event.fwd_from:
         return
