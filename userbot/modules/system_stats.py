@@ -131,9 +131,8 @@ async def amireallyalive(on):
                      f"---------------------------------- \n"
                      " \n"
                      f"Creator: S A Sohan \n"
-                     " \n\n"
                      f"Owner: S A Sohan \n"
-                     " \n\n"
+                     " \n"
                      f"Sohan'z Bot: E.D.I.T.H. \n"
                      f"Even Dead, I'm The Hero! 😎 "
                      "`")    
