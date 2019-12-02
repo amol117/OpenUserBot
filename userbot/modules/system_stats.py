@@ -119,11 +119,11 @@ async def pipcheck(pip):
         await pip.edit("`Use .help pip to see an example`")
 
 
-@register(outgoing=True, pattern="^.on$")
+@register(outgoing=True, pattern="^.start$")
 async def amireallyalive(on):
-    """ For .on command, check if the bot is running.  """
+    """ For .start command, check if the bot is running.  """
     await on.edit("`"
-                     "I am ON My Boss \n\n"
+                     "I am ON, My Boss. \n\n"
                      " \n"
                      "E.D.I.T.H. is alive. \n\n"
                      "Even Dead, I'm The Hero! 😎 \n\n"
@@ -131,8 +131,6 @@ async def amireallyalive(on):
                      f"Python: {python_version()} \n"
                      f"---------------------------------- \n"
                      " \n"
-                     f"User: {DEFAULTUSER} \n"
-                     " \n\n"
                      f"Creator: S A Sohan \n"
                      " \n\n"
                      f"Owner: S A Sohan \n"
@@ -172,9 +170,9 @@ CMD_HELP.update(
     {"pip": ".pip <module(s)>\
     \nUsage: Does a search of pip modules(s)."})
 CMD_HELP.update({
-    "on":
-    ".on\
-    \nUsage: Type .on to see wether your bot is working or not.\
+    "start":
+    ".start\
+    \nUsage: Type .start to see wether your bot is working or not.\
     \n\n.aliveu <text>\
     \nUsage: Changes the 'user' in alive to the text you want.\
     \n\n.resetalive\
